@@ -4,7 +4,7 @@ import mysql.connector
 class DBConfig():
     def __init__(self):
         self.db = mysql.connector.connect(
-            database='halaton',
+            database='hakaton',
             user='root',
             password='root',
             host='localhost',
